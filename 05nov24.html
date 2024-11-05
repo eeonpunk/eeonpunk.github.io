@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let phone =[ ['Iphone 15', 128, 66934],
+               ['Xiaomi Redmi Note 5A', 32, 3916],
+               ['Samsung Galaxy A05', 64, 10154],
+               ['HONOR Magic V3', 512, 189999],
+               ['VERTEX C311', 0.5, 990]]
+
+    console.log(phone[2][0]);
+    console.log(phone[0][2]);
+    console.log(phone[1][2]);
+
+    document.write(phone[2][0]);
+
+    for(let i=0; i<5; i++){
+        for(let k=0; k<3; k++){
+            document.write(phone[i][k] + ' : ')
+        }
+        document.write('<br>');
+    }
+    </script>
+    
+</body>
+</html>
